@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .head{
+            width: 100%;
+            height: 70px;
+            background-color: rgb(37, 125, 240);
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+        }
+
+        .head input{
+            position: absolute;
+            left: 20vw;
+            top:1.6vh;
+            width: 42vw;
+            height: 6vh;
+            padding: 15px 20px;
+            border:none;
+            border-radius: 2px;
+        }
+        .head input::-webkit-input-placeholder{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            
+        }
+        .flipkart{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            width:150px;
+            height: 5vh;
+            position: absolute;
+            left: 13vw;
+            top: 1.2vh;
+        }
+        .flipkart>strong,.flipkart>a{
+            display: block;
+        }
+        a{
+            text-decoration: none;
+        }
+        .flipkart strong a{
+            color: #fff;
+            font-size: 30px;
+        }
+        .flipkart>a>i,.flipkart>a>i>p{
+            display: inline;
+            font-size: 15px;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .flipkart a i p{
+            color: gold;
+        }
+        .login button{
+            width: 9vw;
+            height: 40px;
+            border: none;
+            position: absolute;
+            right:10vw;
+            top: 1.7vh;
+            background-color: #fff;
+            border-radius: 2px;
+        }
+        .login button a{
+            color: rgb(37, 125, 240);
+            font-size: 20px;
+            font-weight:bold;
+        }
+        .drop{
+            display: none;
+            background-color: #fff;
+            position: absolute;
+            top: 9vh;
+            right:6vw;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+        }
+        .login:hover .drop{
+            display: block;
+        }
+        .drop{
+            width: 20vw;
+            height: auto;
+            border-collapse: collapse;
+        }
+        .drop a{
+            display: block;
+            width: 17vw;
+            padding: 30px 0px 10px 50px;
+            border-bottom: 1px solid lightgray;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }
+        #newcust,#signup{
+            padding-right: 30px;
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        
+        .content{
+            width: 100%;
+            height: 1000px;
+            padding-top: 100px;
+            background-color: rgba(211, 211, 211, 0.329);
+        }
+        .first{
+            display: flex;
+            width: 92%;
+            height: 70px;
+            background-color: #fff;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            margin-left: 65px;
+            justify-content: center;
+        }
+        .first>a{
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 20px;
+            font-size: 20px;
+            font-weight:normal;
+            padding:30px 185px;
+            margin: 0px 140px;
+            color: black;
+        }
+        .second{
+            width: 92%;
+            height: 475px;
+            background-color: #fff;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            margin-left: 65px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        iframe{
+            width: 100%;
+            height: 475px;
+            overflow: hidden;
+        }
+        #flipkart{
+            border-bottom: 4px solid blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="head">
+        <div class="flipkart">
+            <strong><a href="https://www.flipkart.com/">Flipkart</a></strong>
+            <a href=""><i>Explor <p>Plus</p></i></a>
+        </div>
+        <input type="search" placeholder="Search for products, brands and more">
+        <div class="login">
+            <button><a href="">Login</a></button>
+            <div class="drop">
+                <strong id="newcust">New customer?</strong><a href="#" id="signup" style="padding-right: 10px;border: none; color: blue;">Sign Up</a>
+                <a href="#">My Profile</a>
+                <a href="#">Flipkart Plus Zone</a>
+                <a href="#">Orders</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Rewards</a>
+                <a href="#">Gift Cards</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="first">
+            <a href="cart_flipkart.html" id="flipkart" target="iframe" onclick="getElementById('flipkart').style.borderBottom = '4px solid blue',getElementById('grocery').style.border='none'">Flipkart</a>
+            <a href="cart_grocary.html" id="grocery" target="iframe" onclick="getElementById('grocery').style.borderBottom= '4px solid blue',getElementById('flipkart').style.border='none'">Grocery</a>
+        </div>
+        
+        <div class="second">
+            <iframe src="cart_flipkart.html" frameborder="0" name="iframe" scrolling="no"></iframe>
+        </div>
+        
+</body>
+</html>
