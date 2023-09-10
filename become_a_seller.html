@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Online - Start Selling Online on Flipkart Seller Hub</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .a{
+            width: 100%;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid lightgray;
+        }
+        .a>p{
+            padding-left: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            color: rgba(0, 0, 0, 0.575);
+        }
+        
+        .b{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.192);
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            z-index: 1;
+        }
+        .b1{
+            width: 210px;
+            height: 80px;
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+        }
+        .b1>img{
+            width: 150px;
+            height: 40px;
+        }
+        .b2,.b3,.b4,.b5,.b6,.b7,.b8{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .b2_1{
+            width: 150px;
+            display: flex;
+            justify-content: center;
+        }
+        .b3_1{
+            width: 280px;
+            display: flex;
+            justify-content: center;
+        }
+        .b4_1,.b5_1,.b6_1{
+            width: 125px;
+            display: flex;
+            justify-content: center;
+        }
+        .b7_1{
+            width: 26vw;
+            display: flex;
+            justify-content: end;
+        }
+        .b8_1{
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: gold;
+        }
+        .b2_1>p,.b3_1>p,.b4_1>p,.b5_1>p,.b6_1>p,.b7_1>p{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 30px 0;
+            color: rgba(0, 0, 0, 0.493);
+        }
+        .b7_1>p{
+            padding-right: 35px;
+        }
+        .b8_1>p{
+            font-size:22px ;
+            padding: 27px 0;
+            color: black;
+        }
+        .ad{
+            width: 10px;
+            padding: 27px 10px;
+        }
+        .ad1{
+            border: solid rgba(0, 0, 0, 0.774);
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(45deg);
+        }
+        .b2_2,.b3_2,.b4_2,.b5_2{
+            display: none;
+            width: 280px;
+            height: auto;
+            border-radius: 13px;
+            background-color: #fff;
+            padding: 20px 15px;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.555);
+            position: absolute;
+            top: 4.7vw;
+        }
+        .b2_2{
+            left: 10vw;
+        }
+        .b3_2{
+            left: 20vw;
+        }
+        .b4_2{
+            left: 30vw;
+        }
+        .b5_2{
+            left: 40vw;
+        }
+        .b2:hover .b2_2,.b3:hover .b3_2,.b4:hover .b4_2,.b5:hover .b5_2,.b6:hover{
+            display: block;
+        }
+        .b2:hover .b2_1>p,.b3:hover .b3_1>p,.b4:hover .b4_1>p,.b5:hover .b5_1>p,.b6:hover .b6_1>p{
+            color: rgba(37, 125, 240, 0.63);
+        }
+        .b2:hover .ad,.b3:hover .ad,.b4:hover .ad,.b5:hover .ad{
+            padding-top: 30px;
+        }
+        .b2:hover .ad1,.b3:hover .ad1,.b4:hover .ad1,.b5:hover .ad1{
+            transform: rotate(-135deg);
+        }
+        .b2_2>a,.b3_2>a,.b4_2>a,.b5_2>a{
+            color: rgba(0, 0, 0, 0.479);
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;
+            padding: 10px 10px;
+        }
+
+        .c{
+            width: 100%;
+            height: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .c1_1>img{
+            width: 100%;
+            position:absolute;
+            z-index: -1;
+        }
+        .c1_2{
+            display: flex;
+            padding: 30px 40px;
+        }
+        .c1_2>a{
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.637);
+            font-size: 18px;
+        }
+        .ar1{
+            border: solid rgba(0, 0, 0, 0.562);
+            border-width: 0 2.5px 2.5px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(-45deg);
+        }
+        .ar{
+            padding: 0 10px;
+        }
+        .c1_3>h3{
+            height: 15vw;
+            font-size: 50px;
+            padding: 30px 40px;
+        }
+        .d{
+            width: 94vw;
+            height: 170px;
+            margin-left: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            display: flex;
+        }
+        .d1{
+            width: 19vw;
+            padding-top: 15px;
+        }
+        .d1_1{
+            display: flex;
+            justify-content: center;
+        }
+        .d1_1>img{
+            width:70px;
+            height: 70px;
+        }
+        .d1_2{
+            width: 10vw;
+            padding: 10px 80px;
+            color: rgba(0, 0, 0, 0.795);
+        }
+        .d1_3{
+            width: 13vw;
+            padding: 10px 50px;
+            color: rgba(0, 0, 0, 0.795);
+        }
+        .d1_2>p,.d1_3>p{
+            text-align: center;
+            line-height: 30px;
+        }
+        .e1{
+            height: 50px;
+            margin-top: 60px;
+            border-left:3px solid lightblue;
+        }
+
+        .f .f1{
+            width: 100%;
+            height: 170px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            display: flex;
+            align-items:center;
+        }
+        .f1>h1{
+            padding-left: 40px;
+            color: rgb(37, 125, 240);
+        }
+        .f1 h1 span{
+            color: black;
+        }
+        .g{
+            width: 94vw;
+            height: 320px;
+            margin-left: 40px;
+            border-radius: 20px;
+            background-color: rgba(127, 255, 212, 0.349);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .g1{
+            display: none;
+        }
+        .g1_1{
+            width: 24vw;
+            height: 320px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .g1_1>img{
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+        }
+        .g1_2{
+            width: 70vw;
+        }
+        .g1_2>h4{
+            font-size: 28px;
+            padding: 100px 0 20px;
+        }
+        .g1_2>p{
+            font-size: 23px;
+            line-height: 40px;
+        }
+
+        .ad2,.ad3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70px;
+            height: 70px;
+            background-color:#fff;
+            box-shadow: 0 0 10px lightgray;
+            border-radius: 50%;
+            font-size: 23px;
+        }
+        .ad2{
+            position: absolute;
+            top: 60vw;
+            left: 1vw;
+        }
+        .ad3{
+            position: absolute;
+            top: 60vw;
+            right: 1vw;
+        }
+        .h .h1{
+            width: 100%;
+            height: 50px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+        .h1>.dot1{
+            width: 15px;
+            height: 15px;
+            border-radius: 50px;
+            background-color: lightgray;
+            margin: 0 7px;
+        }
+        /* ------------------------------------------------------------------------------------------- */
+
+        .j{
+            width: 100%;
+            background-color: #fff;
+            display: flex;
+            border-top: 1px solid lightgray;
+        }
+        .j1{
+            width: 30vw;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .j1_1_1{
+            width: 20vw;
+            height: 50px;
+            display: flex;
+            border-radius: 10px;
+            font-size: 17px;
+            padding:10px 0 0 30px;
+        }
+        .image{
+            width: 50px;
+            padding: 15px 0px;
+        }
+        .image>img{
+            display: none;
+            width: 30px;
+        }
+        .j1_1_1:hover img{
+            display: flex;
+        }
+        .j1_1_1:hover p{
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(37, 125, 240);
+            
+        }
+        .j1_1_1>p{
+            padding: 15px 0px;
+        }
+
+        
+        .right{
+            width: 63vw;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff;
+        }
+        .j2,.j3,.j4,.j5,.j6,.j7,.j8{
+            padding: 40px;
+        }
+        .j2 .j2_1>h4,.j3 .j3_1>h4,.j4_1>h4,.j5_2_1>h4,.j6_1_1>h4,.j7_2_1>h4,.j8_1_1>h4{
+            font-size: 30px;
+            padding-bottom:15px ;
+        }
+        .j2_2{
+            width: 50px;
+            border-bottom: 8px solid rgb(37, 125, 240);
+            border-radius: 10px;
+        }
+        .j2_3{
+            display: flex;
+        }
+        .j2_3_1>p{
+            width: 32vw;
+            padding: 20px 0;
+            font-size: 19px;
+            line-height: 30px;
+        }
+        .j2_3_1_1>p{
+            width: 32vw;
+            padding: 5px 0;
+            font-size: 19px;
+            line-height: 30px;
+        }
+        .j2_3_2>img{
+            width: 24vw;
+            height: 25vw;
+            padding: 10px 45px 0px;
+        }
+        .j2_4{
+            width: 58vw;
+            height: 220px;
+            box-shadow: 0 0 5px lightgray;
+            border-radius: 30px;
+        }
+        .j2_4_1{
+            padding: 50px 40px 15px;
+        }
+        .j2_4_1>h5{
+            font-size: 22px;
+        }
+        .j2_4_1>p{
+            padding: 10px 0;
+            font-size: 18px;
+            color: rgba(0, 0, 0, 0.548);
+        }
+        .j2_4_2{
+            display: flex;
+        }
+        .j2_4_2_1{
+            display: flex;
+            width: 18vw;
+            padding: 0px 25px;
+        }
+        .j2_4_2_1>img{
+            width: 45px;
+            height: 50px;
+            padding: 0 15px;
+        }
+        .j2_4_2_1>p{
+            font-size: 19px;
+            padding: 5px 0;
+        }
+        .j2_5{
+            display: flex;
+            width: 58vw;
+        }
+        .j2_5>p{
+            width: 60vw;
+            font-size: 20px;
+            line-height: 35px;
+            padding: 25px 0;
+        }
+        .j2_6 .j2_6_1 {
+            width: 58vw;
+            height: 410px;
+            box-shadow: 0 0 10px lightblue;
+            border-radius: 20px;
+        }
+        .j2_6_1 table{
+            width: 60vw;
+            height: 300px;
+            font-size: 19px;
+            padding: 10px 35px;
+            color: rgba(0, 0, 0, 0.521);
+        }
+        .j2_6_1 table td:hover{
+            color: rgb(37, 125, 240);
+        }
+        .j2_6_1 table caption{
+            text-align: start;
+            padding: 40px 35px 10px;
+            font-size: 23px;
+            color: black;
+        }
+        .j3,.j5,.j7{
+            width: 58.3vw;
+            margin: 30px 0;
+            background-color: rgba(0, 255, 255, 0.089);
+        }
+        .j3_3,.j5{
+            display: flex;
+        }
+        
+        .j3_3_1>p{
+            width: 25vw;
+            padding: 20px 0;
+            font-size: 19px;
+            line-height: 30px;
+        }
+        .j3_3_2{
+            width: 33.3vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .j3_3_2>img{
+            width: 32vw;
+            height: 330px;
+        }
+        .j3_4>p{
+            display: flex;
+            font-size: 19px;
+            padding: 30px 0;
+        }
+        .j3_5>h5{
+            font-size: 22px;
+            padding: 10px 0 30px;
+        }
+        .j3_5_1{
+            display: flex;
+        }
+        .j3_5_1_1,.j3_5_1_2{
+            width: 30vw;
+        }
+        .j3_5_1_1{
+            padding-right: 40px;
+        }
+        .j3_5_1_1>h5,.j3_5_1_2>h5{
+            font-size: 20px;
+            padding: 15px 0;
+        }
+        .j3_5_1_1_1>iframe,.j3_5_1_2_1>iframe,.j4_4_2_1>iframe{
+            width: 26vw;
+            height: 250px;
+            border-radius: 10px;
+        }
+        .j3_5_1_1_2>p,.j3_5_1_2_2>p{
+            padding-top: 20px;
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .j4_3>p{
+            padding-top: 20px;
+            width: 47vw;
+            font-size: 19px;
+            line-height: 30px;
+        }
+        .j4_3_1{
+            display: flex;
+            align-items: center;
+            height: 50px;
+            font-size: 18px;
+        }
+        .t1{
+            padding: 0px 25px 0 10px;
+        }
+        .tick{
+            border: solid rgb(37, 125, 240);
+            border-width: 0 2.4px 2.4px 0;
+            display: inline-block;
+            padding: 2.5px 2.5px 10px 2.5px;
+            transform: rotate(45deg);
+        }
+        .j4_4{
+            display: flex;
+        }
+        .j4_4_1{
+            width: 26vw;
+        }
+        .j4_4_1>h5,.j4_5>h5{
+            font-size: 20px;
+            padding: 20px 0;
+        }
+        .j4_4_1>p,.j4_5>p,.j4_7_2>p,.j5_2_2>p,.j6_1_2>p,.j6_1_3>p,.j7_2_3>p,.j7_2_5>p,.j7_2_5>a,.j8_1_3>p{
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .j4_4_2{
+            padding: 30px 70px;
+        }
+        .j4_7_1>img{
+            width: 100px;
+            height: 50px;
+        }
+        .j4_6_1 table{
+            width: 58.5vw;
+        }
+        .j4_6_1 table th{
+            width: 19.5vw;
+            height: 100px;
+            font-size: 22px;
+            background-color: rgba(173, 216, 230, 0.24);
+        }
+        .j4_6_1 table td{
+            height: 100px;
+            font-size: 20px;
+            padding-left: 15px;
+            border-bottom: 1px solid lightgray;
+        }
+        .j5_1{
+            width: 20vw;
+            display: flex;
+        }
+        .j5_1>img{
+            width: 16vw;
+            height: 17vw;
+            padding-top: 50px;
+        }
+        .j5{
+            height: 300px;    
+        }
+        .j5_2{
+            width: 35vw;
+        }
+        .j5_2_2{
+            padding: 20px 0;
+        }
+        .j5_2_2>p{
+            padding-bottom: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(37, 125, 240);
+        }
+        .j6,.j7,.j8{
+            display: flex;
+        }
+        .j6_1{
+            width: 30vw;
+        }
+        .j6_1_2>p{
+            padding: 20px 0;
+        }
+        .j6_1_3_1{
+            display: flex;
+            align-items: center;
+            height: 80px;
+            font-size: 18px;
+        }
+        .j6_2>img{
+            width: 23vw;
+            height: 25vw;
+            padding: 380px 0 0 50px;
+        }
+        .j7_1{
+            width: 20vw;
+        }
+        .j7_1>img{
+            padding: 230px 30px 0;
+        }
+        .j7_2{
+            width: 38vw;
+        }
+        .j7_2_3{
+            padding: 20px 0;
+        }
+        .j4_1_1_1>h5{
+            font-size: 19px;
+        }
+        .j8_1{
+            width: 25vw;
+        }
+        .j8_1_3>p{
+            padding: 20px 0 0 0;
+        }
+        .j8_2>img{
+            width: 28vw;
+            padding: 180px 0 0 30px;
+        }
+        .j1{
+            position: sticky;
+            top: 5vw;
+        }
+        </style>
+</head>
+<body>
+    <div class="a">
+        <p>Existing Seller? Explore our product recommendations with Dhamaka Selection</p>
+    </div>
+    <div class="b">
+        <div class="b1">
+            <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/flipkart_logo_color_revamp.svg">
+        </div>
+        <div class="b2">
+            <div class="b2_1">
+                <p>Sell Online</p>
+                <div class="ad"><span class="ad1"></span></div>
+            </div>
+            <div class="b2_2">
+                <a href="#">Create Account</a>
+                <a href="#">List Products</a>
+                <a href="#">Storage & Shipping</a>
+                <a href="#">Reciev Payments</a>
+                <a href="#">Grow Faster</a>
+                <a href="#">Seller App</a>
+                <a href="#">Help & Support</a>
+            </div>
+        </div>
+
+        <div class="b3">
+            <div class="b3_1">
+                <p>Fees and Commission</p>
+                <div class="ad"><span class="ad1"></span></div>
+            </div>
+            <div class="b3_2">
+                <a href="#">Payment Cycle</a>
+                <a href="#">Fee Type</a>
+                <a href="#">Calculate Gross Margin</a>
+            </div> 
+        </div>
+
+        <div class="b4">
+            <div class="b4_1">
+                <p>Grow</p>
+                <div class="ad"><span class="ad1"></span></div>
+            </div>
+            <div class="b4_2">
+                <a href="#">FAssured badge</a>
+                <a href="#">Insights & Tools</a>
+                <a href="#">Flipkart Ads</a>
+                <a href="#">Flipkart Value Services</a>
+                <a href="#">Shopping Festivals</a>
+                <a href="#">Service Partners</a>
+            </div>
+        </div>
+
+        <div class="b5">
+            <div class="b5_1">
+                <p>Learn</p>
+                <div class="ad"><span class="ad1"></span></div>
+            </div>
+            <div class="b5_2">
+                <a href="#">FAQs</a>
+                <a href="#">Seller Success Stories</a>
+                <a href="#">Seller Blogs</a>
+            </div>
+        </div>
+
+        <div class="b6">
+            <div class="b6_1">
+                <p>Shopsy</p>
+            </div>
+        </div>
+
+        <div class="b7">
+            <div class="b7_1">
+                <p>Login</p>
+            </div>
+        </div>
+
+        <div class="b8">
+            <div class="b8_1">
+                <p>Start Selling</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="c">
+        <div class="c1_1">
+            <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/banner/Desktop_sell.webp">
+        </div>
+        <div class="c1_2">
+            <a href="#">Home</a>
+            <div class="ar"><span class="ar1"></span></div>
+            <a href="#">Sell Online</a>
+        </div>
+        <div class="c1_3">
+            <h3>Sell Online with Flipkart</h3>
+        </div>
+    </div>
+
+    <div class="d">
+        <div class="d1">
+            <div class="d1_1">
+                <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/crore_users_revamp.svg">
+            </div>
+            <div class="d1_2">
+                <p>45 crore+ Flipkart customers</p>
+            </div>
+        </div>
+
+        <div class="e1"></div>
+
+        <div class="d1">
+            <div class="d1_1">
+                <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/wallet-icon.svg">
+            </div>
+            <div class="d1_3">
+                <p>7* days secure & regular payments</p>
+            </div>
+        </div>
+
+        <div class="e1"></div>
+
+        <div class="d1">
+            <div class="d1_1">
+                <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/low-cost-icon.svg">
+            </div>
+            <div class="d1_3">
+                <p>Low cost fo doing business</p>
+            </div>
+        </div>
+
+        <div class="e1"></div>
+
+        <div class="d1">
+            <div class="d1_1">
+                <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/seller-support-icon.svg">
+            </div>
+            <div class="d1_3">
+                <p>One click Seller Support</p>
+            </div>
+        </div>
+
+        <div class="e1"></div>
+
+        <div class="d1">
+            <div class="d1_1">
+                <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/shopping-bag-icon.svg">
+            </div>
+            <div class="d1_3">
+                <p>Access to The Big Billion Days & more</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="f">
+        <div class="f1">
+            <h1>Seller Success <span>Stories</span></h1>
+        </div>
+    </div>
+
+    <div class="g">
+        <div class="g1" id="g1">
+            <div class="g1_1">
+                <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/sellers/Raju_yellow.webp">
+            </div>
+            <div class="g1_2">
+                <h4>Raju Lunawath,Amazestore</h4>
+                <p>Starting with just one category, their unwavering support and innovative platform empowered me to grow exponentially, expanding to six diverse categories and achieving an astounding 5x growth year on year.</p>
+            </div>
+        </div>
+
+        <div class="g1" id="g2">
+            <div class="g1_1">
+                <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/sellers/Dinesh_yellow.webp">
+            </div>
+            <div class="g1_2">
+                <h4>Dinesh Kumar Rajpurohit, Kemei</h4>
+                <p>On Flipkart, your lisitings are live in less than 2 hours and you can start selling anywhere in India. I started my business with 3 products, and today I own 3 brands and have also created employment opportunities for my family and team of 25.</p>
+            </div>
+        </div>
+
+        <div class="g1" id="g3">
+            <div class="g1_1">
+                <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/sellers/Vinay_Garg_yellow.webp">
+            </div>
+            <div class="g1_2">
+                <h4>Vinay Garg, Activa & Digi Smart</h4>
+                <p>When moving from offline to online business, our aim was to sell 300 orders per month. Today, we sell more than 700 orders per day and this has been possible because of the growth features on the Flipkart seller dashboard, Flipkart Ads and regular payments.</p>
+            </div>
+        </div>
+
+        <a class="ad2" onclick="p1(-1)">&#10094;</a>
+        <a class="ad3" onclick="p1(1)">&#10095;</a>
+
+    </div>
+
+    <div class="h">
+        <div class="h1">
+            <div class="dot1" id="dot1"></div>
+            <div class="dot1" id="dot2"></div>
+            <div class="dot1" id="dot3"></div>
+        </div>
+    </div>
+
+    <!--------------------------------------------------------------------------------------------------------------------->
+
+
+    <div class="j">
+        <div class="j1">
+            <div class="j1_1">
+            <div class="j1_1_1" id="j1_1_1">
+                <div class="image">
+                <img class="image1" src="https://static-assets-web.flixcart.com/fk-sp-static/images/nav-header-revamp.svg">
+                </div>
+                <p>Create Account</p>
+            </div>
+
+            <div class="j1_1_1" id="j1_1_2">
+                <div class="image">
+                    <img class="image1" src="https://static-assets-web.flixcart.com/fk-sp-static/images/nav-header-revamp.svg">
+                </div>
+                <p>List Products</p>   
+            </div>
+
+            <div class="j1_1_1" id="j1_1_3">
+                <div class="image">
+                    <img class="image1" src="https://static-assets-web.flixcart.com/fk-sp-static/images/nav-header-revamp.svg">
+                </div>
+                <p>Storage & Shipping</p>
+            </div>
+
+            <div class="j1_1_1" id="j1_1_4">
+                <div class="image">
+                    <img class="image1" src="https://static-assets-web.flixcart.com/fk-sp-static/images/nav-header-revamp.svg">
+                </div>
+                <p>Receive Payments</p>
+            </div>
+
+            <div class="j1_1_1" id="j1_1_5">
+                <div class="image">
+                    <img class="image1" src="https://static-assets-web.flixcart.com/fk-sp-static/images/nav-header-revamp.svg">
+                </div>
+                <p>Grow Faster</p>
+            </div>
+
+            <div class="j1_1_1" id="j1_1_6">
+                <div class="image">
+                    <img class="image1" src="https://static-assets-web.flixcart.com/fk-sp-static/images/nav-header-revamp.svg">
+                </div>
+                <p>Seller App</p>
+            </div>
+
+            <div class="j1_1_1" id="j1_1_7">
+                <div class="image">
+                    <img class="image1" src="https://static-assets-web.flixcart.com/fk-sp-static/images/nav-header-revamp.svg">
+                </div>
+                <p>Help & Support</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="right">
+
+            <div class="j2" id="j2" onmouseover="satthi1(0)" onmouseout="satthi2(0)">
+                <div class="j2_1">
+                    <h4>Create Account</h4>
+                </div>
+                <div class="j2_2"></div>
+                <div class="j2_3">
+                    <div class="j2_3_1">
+                        <p>Creating your Flipkart seller account is a quick process, taking less than 10 minutes, 
+                            and requires only 3 documents. Follow the checklist to ensure a seamless account 
+                            creation experience. By having these documents ready, you can streamline the account 
+                            creation process and get started on Flipkart as an online seller in no time.
+                        </p>
+                        <div class="j2_3_1_1">
+                            <p>* for selling in all categories except for book</p> 
+                            <p>** for selling under books category</p>
+                        </div>
+                    </div>
+
+                    <div class="j2_3_2">
+                        <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/images/Desktop_2_sell.webp">
+                    </div>
+                </div>
+
+                <div class="j2_4">
+                    <div class="j2_4_1">
+                        <h5>Don’t have a GSTIN?</h5>
+                        <p>Follow the steps below to generate for your online business.</p>
+                    </div>
+                    <div class="j2_4_2">
+                        <div class="j2_4_2_1">
+                            <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/revamp-user.svg">
+                            <p>Register / Login to www.gst.gov.in</p>
+                        </div>
+                        <div class="j2_4_2_1">
+                            <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/icons/FileSvg.svg">
+                            <p>Fill in the GST Enrolment Application Form</p>
+                        </div>
+                        <div class="j2_4_2_1">
+                            <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/icons/Files.svg">
+                            <p>Submit Enrolment Application</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="j2_5">
+                    <p>Flipkart offers a diverse range of over 3000+ categories where you can sell your products. These categories represent just a fraction of the wide variety available on Flipkart, providing ample opportunities for sellers to showcase their products to a large customer base. Here are some popular categories to consider for online selling:</p>
+                </div>
+
+                <div class="j2_6">
+                    <div class="j2_6_1">
+                    <table>
+                        <caption>Popular categories to sell across India</caption>
+                        <tr>
+                            <td>Sell Mobile Online</td>
+                            <td>Sell Clothes Online</td>
+                            <td>Sell Sarees Online</td>
+                        </tr>
+                        <tr>
+                            <td>Sell Electronics Online</td>
+                            <td>Sell Women Clothes Online</td>
+                            <td>Sell Shoes Online</td>
+                        </tr>
+                        <tr>
+                            <td>Sell Jewellery Online</td>
+                            <td>Sell Tshirts Online</td>
+                            <td>Sell Furniture Online</td>
+                        </tr>
+                        <tr>
+                            <td>Sell Makeup Online</td>
+                            <td>Sell Paintings Online</td>
+                            <td>Sell Watch Online</td>
+                        </tr>
+                        <tr>
+                            <td>Sell Books Online</td>
+                            <td>Sell Home Products Online</td>
+                            <td>Sell Kurtis Online</td>
+                        </tr>
+                        <tr>
+                            <td>Sell Beauty Products Online</td>
+                            <td>Sell Toys Online</td>
+                            <td>Sell Appliances Online</td>
+                        </tr>
+                        <tr>
+                            <td>Sell Shirts Online</td>
+                            <td>Sell Indian Clothes Online</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="j3" id="j3" onmouseover="satthi1(1)" onmouseout="satthi2(1)">
+                <div class="j3_1">
+                    <h4>List Products</h4>
+                </div>
+                <div class="j2_2"></div>
+                <div class="j3_3">
+                    <div class="j3_3_1">
+                        <p>What is a listing? A listing refers to the process of registering your product on the Flipkart platform, making it visible to customers, and enabling them to view and purchase your product. It involves creating a detailed product page that includes essential information such as product title, description, images, pricing, and other relevant details. A well-crafted listing helps attract potential customers and facilitates the sale of your product on Flipkart.</p>
+                    </div>
+                    <div class="j3_3_2">
+                        <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/images/screenshot_2023_05_09_at_3_17_1.webp">
+                    </div>
+                </div>
+                <div class="j3_4">
+                    <p>Did you know that providing precise and comprehensive information about your product, along with clear and captivating images, can increase its visibility on our platform by up to 15%.</p>
+                </div>
+
+                <div class="j3_5">
+                    <h5>Listing on Flipkart can be done in 2 different ways:</h5>
+                    <div class="j3_5_1">
+                        <div class="j3_5_1_1">
+                            <h5>1. Match with existing products</h5>
+                            <div class="j3_5_1_1_1">
+                                <iframe width="400" height="210" src="https://www.youtube.com/embed/jazZiaTb4_M" title="Learn to add new variant to your live listings on Flipkart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="j3_5_1_1_2">
+                                <p>If your product is already available on Flipkart, you have the option to seamlessly link or 'Latch' onto the existing product listing. This allows you to make your product live on the platform without the need to create a separate listing.</p>
+                            </div>
+                        </div>
+                        <div class="j3_5_1_2">
+                            <h5>2. New product</h5>
+                            <div class="j3_5_1_2_1">
+                                <iframe width="376" height="210" src="https://www.youtube.com/embed/oKPV5sIjXF8" title="How to add one product on Flipkart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="j3_5_1_2_2">
+                                <p>For products not currently available on Flipkart, you'll need to provide complete information and create a new listing with details like description, dimensions, features, images, and usage instructions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="j4" id="j4" onmouseover="satthi1(2)" onmouseout="satthi2(2)">
+                <div class="j4_1">
+                    <h4>Storage & Shipping</h4>
+                </div>
+                <div class="j2_2"></div>
+                <div class="j4_3">
+                    <p>Congratulations on receiving your first order! When it comes to shipping your products to customers, Flipkart understands the importance of fast and reliable delivery in secure packaging.</p>
+                    <p>We provide two fulfilment options for you to choose from</p>
+                    <div class="j4_3_1">
+                        <div class="t1"><span class="tick"></span></div>
+                        <span>Fulfilment by Flipkart (FBF)</span>
+                    </div>
+                    <div class="j4_3_1">
+                        <div class="t1"><span class="tick"></span></div>
+                        <span>Non Fulfilment by Flipkart (NFBF)</span>
+                    </div>
+                    <p>Consider the fulfilment option that best suits your needs and preferences to ensure timely and secure delivery of your products to Flipkart customers.</p>
+                </div>
+                <div class="j4_4">
+                    <div class="j4_4_1">
+                        <h5>Fulfilment by Flipkart (FBF)</h5>
+                        <p>Eliminate worries about storage, packing, shipping, and delivery by leveraging Flipkart's Fulfilment by Flipkart (FBF) service. FBF offers a comprehensive solution that handles all your shipping needs under one roof. With FBF, you can entrust Flipkart to efficiently manage the entire process, from storing your products to expertly packing and shipping them to customers. Enjoy a hassle-free experience and focus on growing your business while Flipkart takes care of the logistics.</p>
+                        <div class="j4_1_1_1">
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Pick-up from seller location to Flipkart warehouse</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>FAssured badge</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Faster delivery to customer</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Seamless order processing</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Customer returns handled end to end</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Warehouse space</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Quality selection recommendation</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Rigorous quality checks</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Quality packaging materials</p>
+                            </div>                                            
+                            
+                        </div>
+                    </div>
+                    <div class="j4_4_2">
+                        <div class="j4_4_2_1">
+                            <iframe width="372" height="210" src="https://www.youtube.com/embed/HUDj5NbChv0" title="Fulfillment Models - Hindi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="j4_5">
+                    <h5>Non Fulfilment by Flipkart (NFBF)</h5>
+                    <p>With Non-Fulfillment by Flipkart (NFBF), you can benefit from end-to-end delivery of your products directly from your location to the customer. In NFBF, it is the responsibility of the seller to ensure that the product is properly packed and ready for dispatch before the Flipkart agent arrives at the seller's location. This service allows you to maintain control over the packaging process while leveraging Flipkart's logistics network for efficient and reliable delivery.</p>
+                    <div class="j4_1_1_1">
+                        <div class="j4_3_1">
+                            <div class="t1"><span class="tick"></span></div>
+                            <p>Delivery to 19000+ pin codes across India</p>
+                        </div>
+                        <div class="j4_3_1">
+                            <div class="t1"><span class="tick"></span></div>
+                            <p>Tracking of your product</p>
+                        </div>
+                        <div class="j4_3_1">
+                            <div class="t1"><span class="tick"></span></div>
+                            <p>Customer returns support</p>
+                        </div>
+                        <div class="j4_3_1">
+                            <div class="t1"><span class="tick"></span></div>
+                            <p>Logistics support from community warehouse available</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="j4_6">
+                    <div class="j4_6_1">
+                        <table cellspacing="0" cellpadding="0">
+                            <tr>
+                                <th></th>
+                                <th>Fulfilment by Flipkart (FBF)</th>
+                                <th>Non Fulfilment by Flipkart (NFBF)</th>
+                            </tr>
+                            <tr>
+                                <td>Packaging</td>
+                                <td>Flipkart will pack your products</td>
+                                <td>Seller will pack their products before pick-up</td>
+                            </tr>
+                            <tr>
+                                <td>Storage</td>
+                                <td>Flipkart will store your products at the nearest Flipkart warehouse</td>
+                                <td>Seller will store products at their premise or community warehouse</td>
+                            </tr>
+                            <tr>
+                                <td>Shipping</td>
+                                <td>Flipkart will pick and deliver your products to the customer</td>
+                                <td>Seller will schedule a pick-up & a Flipkart agent will pick your order</td>
+                            </tr>
+                            <tr>
+                                <td>Fees</td>
+                                <td>Relevant FBF fees will be applicable</td>
+                                <td>Normal shipping cost will be applicable to help deliver your product to your customer, based on local, zonal or national delivery.</td>
+                            </tr>
+                            <tr>
+                                <td>Returns</td>
+                                <td>Managed by Flipkart</td>
+                                <td>Managed by Flipkart</td>
+                            </tr>
+                            <tr>
+                                <td>Customer Servic</td>
+                                <td>Managed by Flipkart</td>
+                                <td>Managed by Flipkart</td>
+                            </tr>
+                            <tr>
+                                <td>FAssured Badge</td>
+                                <td>Yes</td>
+                                <td>FAssured badge to be provided basis reliability score</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="j4_7">
+                    <div class="j4_7_1">
+                        <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/fassured_revamp.svg">
+                    </div>
+                    <div class="j4_7_2">
+                        <p>FAssured by Flipkart is an exclusive reliability program designed to offer additional visibility and benefits to your products. By participating in FAssured, your products undergo extra quality checks and are guaranteed to be delivered within 2-4 days of ordering. The FAssured tag not only ensures faster delivery but also brings increased visibility, higher quality, and more orders for your products. It serves as Flipkart's seal of trust, emphasising reliability and speed. Earning the FAssured badge can lead to higher revenue and garner greater trust from customers, enhancing your overall online selling experience on Flipkart</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="j5" id="j5" onmouseover="satthi1(3)" onmouseout="satthi2(3)">
+                <div class="j5_1">
+                    <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/images/group_1000001236.webp">
+                </div>
+                <div class="j5_2">
+                    <div class="j5_2_1">
+                        <h4>Receive Payments</h4>
+                    </div>
+                    <div class="j2_2"></div>
+                    <div class="j5_2_2">
+                        <p>With a customer base of over 45 crore+ on Flipkart, you can expect orders from customers across India. To ensure your convenience, Flipkart ensures timely payments directly into your registered bank account, which you provided during the Flipkart account creation process. You can receive your payments as fast as 7 days* from the date of dispatch, enabling you to manage your cash flow efficiently and focus on growing your business.</p>
+                        <p><a href="#">Know more </a> about Fees & Commission.</p> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="j6" id="j6" onmouseover="satthi1(4)" onmouseout="satthi2(4)">
+                <div class="j6_1">
+                    <div class="j6_1_1">
+                        <h4>Grow Faster</h4>
+                    </div>
+                    <div class="j2_2"></div>
+                    <div class="j6_1_2">
+                        <p>At Flipkart, we recognize that there may be times when you require additional assistance for your online business. That's why, with your Flipkart seller account, you gain access to a diverse range of tools and support functions designed to foster business growth. These include:</p>
+                    </div>
+                    <div class="j6_1_3">
+                        <div class="j6_1_3_1">
+                            <div class="t1"><span class="tick"></span></div>
+                            <p>Price Recommendation Tool : Helps you determine optimal pricing for your products.</p>
+                        </div>
+                        <div class="j6_1_3_1">
+                            <div class="t1"><span class="tick"></span></div>
+                            <p>Product Recommendation Tool : Suggests popular and trending products to expand your product selection.</p>
+                        </div>
+                        <div class="j6_1_3_1">
+                            <div class="t1"><span class="tick"></span></div>
+                            <p>Flipkart Ads : Enables you to advertise your products and reach a larger customer base.</p>
+                        </div>
+                        <div class="j6_1_3_1">
+                            <div class="t1"><span class="tick"></span></div>
+                            <p>Paid Account Management services : Offers dedicated account management support for personalised guidance.</p>
+                        </div>
+                        <div class="j6_1_3_1">
+                            <div class="t1"><span class="tick"></span></div>
+                            <p>Catalog & Photoshoot services : Assists with creating high-quality product catalogues and images.</p>
+                        </div>
+                        <div class="j6_1_3_1">
+                            <div class="t1"><span class="tick"></span></div>
+                            <p>Shopping Festivals and more : Participate in exciting sales events and promotional campaigns.</p>
+                        </div>
+                        <p><a href="#">Know more </a>on how to grow your business</p>
+                    </div>
+                </div>
+                <div class="j6_2">
+                    <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/images/_03_1.webp">
+                </div>
+            </div>
+
+            <div class="j7" id="j7" onmouseover="satthi1(5)" onmouseout="satthi2(5)">
+                <div class="j7_1">
+                    <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/images/mobile_app_1_1.webp">
+                </div>
+                <div class="j7_2">
+                    <div class="j7_2_1">
+                        <h4>Seller App</h4>
+                        <div class="j2_2"></div>
+                        <div class="j7_2_3">
+                            <p>We recognize the significance of staying connected to your Flipkart online business no matter where you are. That's why we offer the Flipkart Seller Hub App, your trusted companion for managing your business on the go.</p>
+                        </div>
+                        <div class="j4_1_1_1">
+                            <h5>The Seller Hub App enables you to conveniently handle</h5>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Create and manage listing</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Manage orders and fulfilment</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Track inventory</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Payments</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Advertising</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Business Insights</p>
+                            </div>
+                            <div class="j4_3_1">
+                                <div class="t1"><span class="tick"></span></div>
+                                <p>Seller Support and more</p>
+                            </div>
+                        </div>
+                        <div class="j7_2_5">
+                            <p>Stay connected and in control of your Flipkart business with the Seller Hub App.</p>
+                            <a href="#">Google Play</a><br>
+                            <a href="#">Apple Store</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="j8" id="j8" onmouseover="satthi1(6)" onmouseout="satthi2(6)">
+                <div class="j8_1">
+                    <div class="j8_1_1">
+                        <h4>Help & Support</h4>
+                    </div>
+                    <div class="j2_2"></div>
+                    <div class="j8_1_3">
+                        <p>What sets us apart is our exceptional Flipkart seller support assistance. We prioritise your needs and are committed to providing you with prompt assistance, whether you have questions, doubts, or require any kind of support for your business. Our dedicated team is here to help you every step of the way, ensuring that you have a smooth and successful selling experience on Flipkart. Feel free to reach out to us whenever you need assistance - we're always here to support you.</p>
+                        <p><a href="#">Know more </a>about the assistance we offer.</p>
+                        <p>A step-by-step guide to help with your Flipkart account creation can be <a href="#">downloaded from here.</a></p>
+                    </div>
+                </div>
+                <div class="j8_2">
+                    <img src="https://static-assets-web.flixcart.com/fk-sp-static/images/prelogin/images/untitled_15_04_1.webp">
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+
+
+    <script>
+        let a=0;
+        satthi2(a);
+        function p1(n){
+            satthi2(a += n);
+        }
+        function satthi2(n){
+            let s=document.getElementsByClassName("g1");
+            if(n>=3){n=2}
+            if(n<0){n=0}
+            for(let i=0 ;i<s.length;i++){
+                s[i].style.display="none";
+            }
+            s[n].style.display="flex";
+        }
+        let b=0;
+        bulli1();
+        function bulli1(){
+            let s1=document.getElementsByClassName("g1");
+            let s2=document.getElementsByClassName("dot1");
+            for(let i=0;i<s1.length;i++){
+                s1[i].style.display="none";
+                s2[i].style.backgroundColor="lightgrey"
+                s2[i].style.width= "15px";
+            }
+            b++;
+            if(b>s1.length){b=1}
+            s1[b-1].style.display="flex";
+            s2[b-1].style.backgroundColor = "blue";
+            s2[b-1].style.width="40px";
+            setTimeout(bulli1,6000);
+        }
+        function satthi1(n){
+            let s=document.getElementsByClassName("j1_1_1");
+            let s1=document.getElementsByClassName("image1");
+            s[n].style.color="rgb(37, 125, 240)";
+            s[n].style.border="2px solid rgb(37, 125, 240)";
+            s[n].style.fontSize="25px";
+            s[n].style.fontWeight="bold";
+            s1[n].style.display="flex";
+        }
+        function satthi2(n){
+            let s=document.getElementsByClassName("j1_1_1");
+            let s1=document.getElementsByClassName("image1");
+            s[n].style.color="black";
+            s[n].style.border="none";
+            s[n].style.fontSize="18px";
+            s[n].style.fontWeight="normal";
+            s1[n].style.display="none";
+        }
+    </script>
+
+</body>
+</html>
