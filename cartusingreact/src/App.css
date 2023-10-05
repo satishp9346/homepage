@@ -1,0 +1,339 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.head{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(37, 125, 240);
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.head input{
+  position: absolute;
+  left: 20vw;
+  top:1.6vh;
+  width: 42vw;
+  height: 6vh;
+  padding: 15px 20px;
+  border:none;
+  border-radius: 2px;
+  outline: none;
+}
+.head input::-webkit-input-placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  
+}
+.head>i{
+  position: absolute;
+  top: 3vh;
+  left: 59.5vw;
+  font-size: 25px;
+  color: rgb(37, 125, 240);
+}
+.flipkart{
+  width: 17vw;
+  height: 70px;
+  padding-left: 210px
+}
+.flip_1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  width:150px;
+  height: 5vh;
+  
+}
+
+a{
+  text-decoration: none;
+}
+.flip_1>a{
+  color: #fff;
+  font-size: 30px;
+}
+.flip_2{
+  display: flex;
+}
+.flip_2>a>i,.flipkart_2>a>i>span{
+  font-size: 15px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flip_2 a i span{
+  color: gold;
+}
+.login button{
+  width: 9vw;
+  height: 40px;
+  border: none;
+  position: absolute;
+  right:10vw;
+  top: 1.7vh;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.login button a{
+  color: rgb(37, 125, 240);
+  font-size: 20px;
+  font-weight:bold;
+}
+.drop{
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  top: 9vh;
+  right:6vw;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.login:hover .drop{
+  display: block;
+}
+.drop{
+  width: 20vw;
+  height: auto;
+  border-collapse: collapse;
+}
+.drop a{
+  display: block;
+  width: 17vw;
+  padding: 30px 0px 10px 50px;
+  border-bottom: 1px solid lightgray;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+#newcust,#signup{
+  padding-right: 30px;
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+/* -------------------------------------------------------- */
+
+.login_popup{
+  background-color: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.login_a{
+  display: flex;
+  width: 50vw;
+  height: 38vw;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 5vw;
+  left: 25vw;
+  z-index: 1;
+  background-color: #fff;
+}
+.login_a1{
+  width: 20vw;
+  background-color: rgba(4, 60, 245, 0.801);
+}
+.login_a1_1{
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  width: 20vw;
+  height: 150px;
+}
+.login_a1_1>h2{
+  font-size: 33px;
+  color: #fff;
+  padding: 0 0 30px 40px;
+}
+.login_a1_2{
+  width: 12vw;
+  font-size: 22px;
+  line-height: 35px;
+  color: #ffffffe0;
+  padding-left: 40px;
+}
+.login_a1_3{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 20vw;
+  height: 320px;
+}
+.login_a1_3>img{
+  width: 17vw;
+  height: 180px;
+}
+.login_a2{
+  width: 30vw;
+}
+#login_a2_1{
+  width: 30vw;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+#login_a2_1>input{
+  width: 25vw;
+  height: 25px;
+  padding: 5px 0;
+  margin-bottom: 40px;
+  border: 0px solid;
+  border-bottom: 2px solid rgb(37, 125, 240);
+  outline: none;
+  font-size: 18px;
+}
+#login_a2_1 label{
+  font-size: 15px;
+  opacity: 0.8;
+  position: absolute;
+  top: 3.5vw;
+  right: 17vw;
+  transform-origin: top left;
+  transform: translate(0, 15px) scale(1.5);
+  transition: all .1s ease-in-out;
+}
+#login_a2_1.active label ,#login_a2_1.active label{
+  transform: translate(0, 3px) scale(1);
+  opacity: 0.7;
+}
+
+.login_a2_2{
+  width: 25vw;
+  padding-left: 40px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.568);
+}
+.login_a2_2 p a,.login_a2_4>a{
+  text-decoration: none;
+  color: rgb(37, 125, 240);
+}
+.login_a2_3{
+  width: 25vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+}
+.login_a2_3>button{
+  width: 25vw;
+  height: 60px;
+  background-color: rgb(255, 94, 0);
+  color: #fff;
+  border: none;
+  font-size: 19px;
+  font-weight: bold;
+}
+.login_a2_4{
+  width: 25vw;
+  height: 320px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-size: 18px;
+  font-weight: bold;
+}
+.close{
+  background-color:rgba(0, 0, 0, 0);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:-10px;
+  right: -3vw;
+  font-size: 35px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/* --------------------------------------------------------- */
+.a{
+  width: 100%;
+  height: 50vw;
+  background-color: rgba(233, 231, 231, 0.459);
+  padding: 35px 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.a1{
+  display: flex;
+  width: 91vw;
+  height: 80px;
+  background-color: white;
+  border-radius: 5px 5px 0 0;
+}
+.a1_1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45.5vw;
+}
+.a1_1_1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+  height: 80px;
+  width: 400px;
+}
+
+.a2{
+  display: flex;
+  width: 91vw;
+  height: 500px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+/* ---------------------------------------------------------------- */
+
+.cart_flipkart{
+  width: 91vw;
+  height: 500px;
+  padding-top: 20px;
+}
+.cart_flipkart_1>img{
+  width: 300px;
+  height: 250px;
+  padding-bottom: 30px;
+}
+.cart_flipkart_1{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.cart_flipkart_1>h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+.cart_flipkart_1>p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  padding-bottom: 30px;
+}
+.cart_flipkart_1>button{
+  width: 250px;
+  height: 50px;
+  background-color: rgb(30, 95, 238);
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  border-radius: 3px;
+}

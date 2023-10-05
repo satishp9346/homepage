@@ -1,0 +1,99 @@
+.t,.u{
+    width: 95vw;
+    overflow: hidden;
+    
+}
+.t1{
+    display: flex;
+    width: 120vw;
+        
+}
+.t1_1{
+    width: 28.5vw;
+    box-shadow: 0 0 10px lightgray;
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.leftbtn,.leftbtn1,.rightbtn,.rightbtn1{
+    width: 60px;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: 0 0 10px lightgray;
+    font-size: 35px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 10px 10px 0; 
+    position: relative;
+}
+.leftbtn{
+    float: left;
+    top: -12vw;
+}
+.rightbtn{
+    float: right;
+    top: -12vw;
+    border-radius:10px 0 0 10px ;  
+}
+
+.leftbtn1{
+    float: left;
+    top: -17vw;
+}
+
+.rightbtn1{
+    float: right;
+    top: -17vw;
+    border-radius:10px 0 0 10px ;  
+}
+
+.u1{
+    display: flex;
+    width: 400vw;
+    z-index: 0;
+}
+.u1_1{
+    width: 270px;
+    padding: 15px;
+    margin: 0 5px;
+}
+.u2>img{
+    width: 190px;
+    height: 220px;
+    padding-left: 20px;
+
+}
+.u3>h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 20px ;
+}
+.u4,.u5{
+    display: flex;
+}
+#rating{
+    width: 50px;
+    height: 25px;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+#light{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.599);
+    padding: 0 10px;
+}
+
+#cost{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+#green{
+    font-weight: bold;
+    color: green;
+}
